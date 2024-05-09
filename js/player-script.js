@@ -103,8 +103,8 @@ function checkForToken(){
 
 function getToken(status){
   const authEndpoint = 'https://accounts.spotify.com/authorize';
-  const clientId = 'CLIENT ID HERE';
-  const redirectUri = 'DOMAIN HERE/callback';
+  const clientId = 'e4996d9ea56a42e28ff696cc12d94770';
+  const redirectUri = 'https://groovoxdemo.netlify.app/callback';
   const scopes = [
     'user-read-birthdate',
     'user-read-email',
